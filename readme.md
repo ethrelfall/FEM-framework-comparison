@@ -8,7 +8,8 @@ Advection of scalar field at unit velocity on a periodic domain $40 \times 10$ l
 Mesh: $64 \times 16$ quadrilaterals, order-3 Lagrange polynomial basis functions, discontinuous Galerkin.\
 Boundary conditions: all periodic.\
 Time-stepper: RadauIIA order-2.\
-Initial data: either Gaussian $n=e^{-\frac{r^2}{s^2}}$ or `Frankenstein's monster'-type curve $n=\mathrm{max}(0,e^{-\frac{a^2}{s^2-r^2}})$ (so-called as it's stitched onto zero with all derivatives continuous everywhere), both centered in the domain.  Both conditions can be made to show Runge phenomenon i.e. overshoots and oscillation with certain choices of parameters (e.g. for Frankenstein, make $a$ small).
+Initial data: either Gaussian $n=e^{-\frac{r^2}{s^2}}$ or `Frankenstein's monster'-type curve $n=\mathrm{max}(0,e^{-\frac{a^2}{s^2-r^2}})$ (so-called as it's stitched onto zero with all derivatives continuous everywhere), both centered in the domain.  Both conditions can be made to show Runge phenomenon i.e. overshoots and oscillation with certain choices of parameters (e.g. for Frankenstein, make $a$ small).\
+Other notes: tested with MPI - OK.
 
 # 2. Slab anisotropic diffusion - Deluzet-Narski singular perturbation problem
 
