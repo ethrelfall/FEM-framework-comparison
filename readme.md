@@ -25,7 +25,7 @@ $$
 
 There is an analytic solution because $f$ is derived using the method of manufactured solutions.
 
-The magnetic fieldlines can be straight (parameters $\alpha=0, mode number $m=0$) or curved; the paper does straight ones as well as $(\alpha, m)=(2,1)$ and $(2,10)$.
+The magnetic fieldlines can be straight (parameters $\alpha=0$, mode number $m=0$) or curved; the paper does straight ones as well as $(\alpha, m)=(2,1)$ and $(2,10)$.
 
 There are two numerical issues: the null space (not really seen in the examples in the paper), and the `locking' problem.  The latter appears when the FEM basis functions lack a component which varies in the direction of the magnetic field - it is thus a problem at low order (basically order-1) and goes away for higher-order.
 
